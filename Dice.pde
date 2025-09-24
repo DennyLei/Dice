@@ -26,7 +26,7 @@ int[] primes = {
 };
 void setup()
 {
-    size(1000,1000);
+    size(1000,600);
     noLoop();
     bob = new Die(0,0);
 }
@@ -41,13 +41,13 @@ void draw()
     bob.roll();
       }
     }
-    rect(0,950,1000,1000);
+    rect(0,550,1000,600);
     fill(255,255,255);
     textSize(50);
     if (isPrimeCount(count)) {
-    text("Total:" + count + " is in the prime list!", 160,990,100);
+    text("Total:" + count + " is in the prime list!", 160,590,100);
   } else {
-    text("Total:" + count + " is NOT in the prime list!", 160,990,100);
+    text("Total:" + count + " is NOT in the prime list!", 160,590,100);
   }
 }
 void mousePressed()
