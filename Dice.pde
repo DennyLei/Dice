@@ -53,7 +53,7 @@ void draw()
     fill(255,255,255);
     textSize(50);
     if (isPrimeCount(count)) {
-    text("Total:" + count + " is a prime number!" 160,590,100);
+    text("Total:" + count + " is a prime number!", 160,590,100);
   } else {
     text("Total:" + count + " is NOT a prime number!", 160,590,100);
   }
